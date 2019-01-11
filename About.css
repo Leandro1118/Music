@@ -1,0 +1,125 @@
+body{
+background-color:rgba(0,0,0,0.1);
+font-family: Arial;
+margin: 0;
+padding: 0; }
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+overflow: hidden;
+  background-color: #333;
+  border-radius:5px;
+  margin-bottom:60px;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover {
+  background-color: #111;
+}
+.l a:hover {
+  background-color: #111;
+}
+a:link{
+  color:#f1f1f1;
+}
+
+.Search{
+  float: right;
+  padding: 6px;
+  margin-top: 15px;
+  margin-right: 40px;
+  border: none;
+  font-size: 17px;
+}
+
+.leftcolumn {
+    width: 75%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.card {
+  background-color: #f2f3f4;
+  padding: 20px;
+  margin-top: 20px;
+    border-radius: 10px;
+    height:300px;
+    width:75%;
+    margin-bottom: 100px;
+}
+h3{
+border-bottom: 1px solid black;
+}
+footer {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 16px;
+    line-height: 4rem;
+    padding-top: 30px;
+    border-bottom: 1px solid #1b1b1b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    padding: 60px;
+    margin-top: 200px;
+
+}
+footer {
+
+    list-style-type: none;
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    padding: 80px 0 50px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 0px;
+
+}
+footer {
+
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 16px;
+    line-height: 4rem;
+    padding-top: 30px;
+    border-bottom: 1px solid #1b1b1b;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    padding: 60px;
+    margin-top: 200px;
+
+}
+footer div {
+
+    float: left;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+.thumbsup{
+  height:150px;
+  width: 170px;
+  float: left;
+  padding-top: 40px;
+}
