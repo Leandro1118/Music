@@ -1,1 +1,78 @@
-body{}
+/*background*/
+body {
+background-color:rgba(0,0,0,0.1);
+  font-family: Arial;
+margin: 0;
+padding: 0;
+
+
+}
+
+/*background*/
+/*Nav*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+overflow: hidden;
+  background-color: #333;
+  border-radius:5px;
+  margin-bottom:60px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.Search{
+  float: right;
+  padding: 6px;
+  margin-top: 15px;
+  margin-right: 40px;
+  border: none;
+  font-size: 17px;
+
+}
+/*Nav*/
+/*Fortsätt med side bar sen*/
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.Page {
+background-color: #f2f3f4;
+padding: 20px;
+  border-radius:10px;
+  height:1380px;
+  ;
+
+}
+.Side{
+  Float:right;
+  width: 20%;
+}
+.Trending{
+  float: none;
+  color:#f1f1f1;
+  padding: 10px;
+  background-color: #333;
+  height: 110px;
+
+}
+h3
+{
+  border-bottom: 1px solid black
+
+}
