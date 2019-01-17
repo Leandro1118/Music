@@ -1,6 +1,10 @@
 /*background*/
 body {
+<<<<<<< HEAD
 background-color:rgba #262626 ;
+=======
+background-color:rgba(0,0,0,0.1);
+>>>>>>> fcf0c97ffdb17d11f328fd68f5aa55e03d99add1
   font-family: Impact;
 margin: 0;
 padding: 0;
