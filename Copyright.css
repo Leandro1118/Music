@@ -1,0 +1,29 @@
+body {
+background-color:rgba(0,0,0,0.1);
+  font-family: Impact;
+margin: 0;
+padding: 0;
+
+
+}
+
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color:#f2f3f4;
+    padding-left: 20px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.card {
+  background-color: #f2f3f4;
+  padding: 20px;
+  margin-top: 20px;
+    border-radius: 10px;
+    height:300px;
+    width:75%;
+}
