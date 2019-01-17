@@ -16,8 +16,9 @@ ul {
   padding: 0;
 overflow: hidden;
   background-color: #333;
-  border-radius:5px;
+  border-radius:0px;
   margin-bottom:60px;
+  border-bottom:5px solid black;
 }
 
 li {
@@ -54,7 +55,7 @@ clear: both;
 .Page {
 background-color: #f2f3f4;
 padding: 20px;
-  border-radius:10px;
+  border-radius:0px;
   height:1380px;
   ;
 
@@ -96,7 +97,7 @@ clear: both;
   background-color: #f2f3f4;
   padding: 20px;
   margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     height:300px;
     width:75%;
 }
@@ -167,6 +168,7 @@ footer {
   font-weight:lighter;
   padding:60px;
   margin-top: 150px;
+  border-top: 5px solid black;
     }
 
 
