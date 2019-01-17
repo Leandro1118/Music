@@ -1,0 +1,49 @@
+
+.polar
+{
+height: 70px;
+width: 75px;
+float:left;
+padding-bottom: 20px;
+margin-top: 10px;
+
+ul
+ {
+   list-style-type: none;
+   margin: 0;
+   padding: 30px;
+  overflow: hidden;
+   background-color:#111;
+   border-radius:0px;
+   margin-bottom:50px;
+}
+li
+ {
+  float: left;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+li a
+ {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 14px;
+  text-decoration: none;
+}
+
+li a:hover
+{
+  background-color: #111;
+}
+.Search
+{
+  float: right;
+  padding: 6px;
+  margin-top: 15px;
+  margin-right: 40px;
+  border: none;
+  font-size: 17px;
+}
