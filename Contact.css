@@ -17,7 +17,7 @@ ul {
 overflow: hidden;
   background-color: #333;
   border-radius:5px;
-  margin-bottom:60px;
+  margin-bottom:10px;
 }
 
 li {
@@ -54,9 +54,9 @@ clear: both;
 .Page {
 background-color: #f2f3f4;
 padding: 20px;
-  border-radius:10px;
-  height:1380px;
-  ;
+  border-radius:0px;
+  height:480px;
+  margin-top: 0px;
 
 }
 .Side{
@@ -70,9 +70,13 @@ padding: 20px;
   background-color: #333;
   height: 110px;
 
+
 }
 h3
 {
   border-bottom: 1px solid black
 
+}
+.Map{
+  padding-left: 10px;
 }
