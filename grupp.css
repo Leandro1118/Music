@@ -150,33 +150,38 @@ div.desc {
 }
 /*Gallery*/
 /*Footer*/
-footer {
+footer {footer
+ {
 
   list-style-type: none;
   margin: 0;
   padding: 80px 0 50px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #111;
   border-radius:0px;
 
 }
-p{
-    float:left;
+p
+{
+
   padding: 30px;
 text-decoration: none;
 
 }
-a:link{
+a:link
+{
   color:#f1f1f1;
 }
-footer div {
+footer div
+ {
 
     float: left;
     width: 100%;
     float: left;
     color: #fff;
 }
-footer {
+footer
+{
   margin-left: 0px;
   margin-right: 0px;
   font-size: 12px;
@@ -191,6 +196,5 @@ footer {
   margin-top: 150px;
   border-top: 5px solid black;
     }
-
 
 /*Footer*/
