@@ -1,6 +1,10 @@
 /*background*/
 body {
+<<<<<<< HEAD
+background-color:rgba #262626 ;
+=======
 background-color:rgba(0,0,0,0.1);
+>>>>>>> fcf0c97ffdb17d11f328fd68f5aa55e03d99add1
   font-family: Impact;
 margin: 0;
 padding: 0;
@@ -10,39 +14,48 @@ padding: 0;
 
 /*background*/
 /*Nav*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-overflow: hidden;
-  background-color: #333;
-  border-radius:5px;
-  margin-bottom:60px;
+ul
+ {
+   list-style-type: none;
+   margin: 0;
+   padding: 30px;
+ overflow: hidden;
+   background-color:#111;
+   border-radius:0px;
+   margin-bottom:50px;
 }
 
-li {
+
+li
+ {
   float: left;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
-li a {
+li a
+ {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
+  padding-top: 14px;
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover
+{
   background-color: #111;
 }
-.Search{
+.Search
+{
   float: right;
   padding: 6px;
   margin-top: 15px;
   margin-right: 40px;
   border: none;
   font-size: 17px;
-
+}
 }
 /*Nav*/
 /*Fortsätt med side bar sen*/
@@ -54,7 +67,7 @@ clear: both;
 .Page {
 background-color: #f2f3f4;
 padding: 20px;
-  border-radius:10px;
+  border-radius:0px;
   height:1380px;
   ;
 
@@ -96,7 +109,7 @@ clear: both;
   background-color: #f2f3f4;
   padding: 20px;
   margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
     height:300px;
     width:75%;
 }
@@ -128,33 +141,38 @@ div.desc {
 }
 /*Gallery*/
 /*Footer*/
-footer {
+footer {footer
+ {
 
   list-style-type: none;
   margin: 0;
   padding: 80px 0 50px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #111;
   border-radius:0px;
 
 }
-p{
-    float:left;
+p
+{
+
   padding: 30px;
 text-decoration: none;
 
 }
-a:link{
+a:link
+{
   color:#f1f1f1;
 }
-footer div {
+footer div
+ {
 
     float: left;
     width: 100%;
     float: left;
     color: #fff;
 }
-footer {
+footer
+{
   margin-left: 0px;
   margin-right: 0px;
   font-size: 12px;
@@ -167,7 +185,7 @@ footer {
   font-weight:lighter;
   padding:60px;
   margin-top: 150px;
+  border-top: 5px solid black;
     }
-
 
 /*Footer*/

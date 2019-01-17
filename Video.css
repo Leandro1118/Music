@@ -5,38 +5,48 @@ margin: 0;
 padding: 0;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-overflow: hidden;
-  background-color: #333;
-  border-radius:5px;
-  margin-bottom:60px;
-}
 
-li {
-  float: left;
-}
+   {
+     list-style-type: none;
+     margin: 0;
+     padding: 30px;
+   overflow: hidden;
+     background-color:#111;
+     border-radius:0px;
+     margin-bottom:50px;
+  }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-li a:hover {
-  background-color: #111;
-}
-.Search{
-  float: right;
-  padding: 6px;
-  margin-top: 15px;
-  margin-right: 40px;
-  border: none;
-  font-size: 17px;
+  li
+   {
+    float: left;
+    padding-left: 10px;
+    font-size: 20px;
+  }
 
+  li a
+   {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 14px;
+    text-decoration: none;
+  }
+
+  li a:hover
+  {
+    background-color: #111;
+  }
+  .Search
+  {
+    float: right;
+    padding: 6px;
+    margin-top: 15px;
+    margin-right: 40px;
+    border: none;
+    font-size: 17px;
+  }
 }
 
 .leftcolumn {
@@ -75,7 +85,38 @@ iframe{
 
 }
 
-footer {
+footer {footer
+ {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 80px 0 50px;
+  overflow: hidden;
+  background-color: #111;
+  border-radius:0px;
+
+}
+p
+{
+
+  padding: 30px;
+text-decoration: none;
+
+}
+a:link
+{
+  color:#f1f1f1;
+}
+footer div
+ {
+
+    float: left;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+footer
+{
   margin-left: 0px;
   margin-right: 0px;
   font-size: 12px;
@@ -88,24 +129,5 @@ footer {
   font-weight:lighter;
   padding:60px;
   margin-top: 150px;
-    }
-    footer {
-
-      list-style-type: none;
-      margin: 0;
-      padding: 80px 0 50px;
-      overflow: hidden;
-      background-color: #333;
-      border-radius:0px;
-
-    }
-    footer div {
-
-        float: left;
-        width: 100%;
-        float: left;
-        color: #fff;
-    }
-    a:link{
-      color:#f1f1f1;
+  border-top: 5px solid black;
     }
