@@ -4,42 +4,48 @@ background-color:rgba(0,0,0,0.1);
 margin: 0;
 padding: 0;
 }
-.ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-overflow: hidden;
-  background-color: #333;
-  border-radius:5px;
-  margin-bottom:60px;
+.ul
+ {
+   list-style-type: none;
+   margin: 0;
+   padding: 30px;
+ overflow: hidden;
+   background-color:#111;
+   border-radius:0px;
+   margin-bottom:50px;
 }
 
-.li {
+
+li
+ {
   float: left;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
-.li a {
+li a
+ {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
+  padding-top: 14px;
   text-decoration: none;
 }
 
-.li a:hover {
+li a:hover
+{
   background-color: #111;
 }
-.l a:hover {
-  background-color: #111;
-}
-.Search{
+.Search
+{
   float: right;
   padding: 6px;
   margin-top: 15px;
   margin-right: 40px;
   border: none;
   font-size: 17px;
-
+}
 }
 
 .leftcolumn {
