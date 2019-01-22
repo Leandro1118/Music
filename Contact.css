@@ -4,6 +4,7 @@ background-color:rgba(0,0,0,0.1);
   font-family: Arial;
 margin: 0;
 padding: 0;
+height: 1080px;
 
 
 }
@@ -55,7 +56,7 @@ clear: both;
 background-color: #f2f3f4;
 padding: 20px;
   border-radius:0px;
-  height:480px;
+  height:450px;
   margin-top: 0px;
 
 }
@@ -63,15 +64,7 @@ padding: 20px;
   Float:right;
   width: 20%;
 }
-.Trending{
-  float: none;
-  color:#f1f1f1;
-  padding: 10px;
-  background-color: #333;
-  height: 110px;
 
-
-}
 h3
 {
   border-bottom: 1px solid black
