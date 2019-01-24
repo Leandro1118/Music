@@ -27,7 +27,7 @@ padding: 20px;
  overflow: hidden;
    background-color:#111;
    border-radius:0px;
-   margin-bottom:50px;
+   margin-bottom:10px;
    border-bottom: solid white 1px;
 }
 
@@ -75,7 +75,7 @@ clear: both;
 background-color: #f2f3f4;
 padding: 20px;
   border-radius:0px;
-  height:450px;
+  height:380px;
   margin-top: 0px;
 
 }
