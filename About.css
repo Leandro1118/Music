@@ -1,10 +1,11 @@
 body{
-background-image: linear-gradient(black, white);
+  background: url("airpods.jpg") no-repeat fixed center;
 font-family: Arial;
 margin: 0;
 padding: 0;
 font-family: Circular, Helvetica, Arial, sans-serif;
 }
+
 
 
 .polar
@@ -15,16 +16,20 @@ font-family: Circular, Helvetica, Arial, sans-serif;
   margin-top: 10px;
   padding-bottom: 20px;
 }
-ul
+#id
  {
+   width: 100%;
+   position: fixed;top: 0px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    list-style-type: none;
    margin: 0;
-padding: 20px;
  overflow: hidden;
-   background-color:#111;
+   background-color:#fff;
    border-radius:0px;
    margin-bottom:50px;
    border-bottom: solid white 1px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -38,13 +43,13 @@ li
 
 li a
  {
-   display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
-     padding-top: 14px;
- padding-top: 14px;
- text-decoration: none;
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 14px;
+  text-decoration: none;
+
 }
 
 li a:hover
@@ -81,6 +86,7 @@ clear: both;
 h3{
 border-bottom: 1px solid black;
 }
+
 footer
  {
 
@@ -88,8 +94,9 @@ footer
   margin: 0;
   padding: 80px 0 50px;
   overflow: hidden;
-  background-color: #111;
+  background-color: #cccccc;
   border-radius:0px;
+
 
 }
 p
@@ -101,7 +108,7 @@ text-decoration: none;
 }
 a:link
 {
-  color:#cccccc;
+  color:#111;
   text-align: center;
 }
 footer div
@@ -124,5 +131,6 @@ footer
   font-weight:lighter;
   padding:60px;
   margin-top: 150px;
-  border-top: 5px solid black;
+  border-top: 1px solid black;
+
     }
