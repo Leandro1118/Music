@@ -1,0 +1,188 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Circular, Helvetica, Arial, sans-serif;
+background: url("airpods.jpg") no-repeat fixed center;
+height: 1080px;
+}
+.polar
+{
+  height: 70px;
+  width: 75px;
+  float:left;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+#id
+ {
+   width: 100%;
+   position: fixed;top: 0px;
+
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   list-style-type: none;
+   margin: 0;
+ overflow: hidden;
+   background-color:#fff;
+   border-radius:0px;
+   margin-bottom:100px;
+   border-bottom: solid white 1px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+iframe{
+  position: absolute;top:400px;
+}
+li
+ {
+  float: left;
+  padding-left: 10px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+li a
+ {
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 14px;
+  text-decoration: none;
+
+}
+
+li a:hover
+{
+  background-color: #111;
+}
+.Search
+{
+  float: right;
+  padding: 20px;
+  margin-top: 15px;
+  margin-right: 40px;
+  border: none;
+  font-size: 17px;
+}
+
+.card {
+  background-color: #f2f3f4;;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    height:1000px;
+    padding-top: 10px;
+    opacity: 1;
+    margin-bottom: 60px;
+margin-top: 200px;
+width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.Chris{
+border: solid black 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+h2 span {
+   color: white;
+   font: bold 14px/15px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+  font-size: 19.55px;
+
+}
+h2 {
+   position: static;
+   width:354px;
+   margin-top:-70px;
+
+
+}
+
+p{
+  line-height: 19px;
+  text-align: justify ;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+
+
+}
+
+
+.Page {
+background-color: #cccccc;
+padding: 7px;
+  border-radius:0px;
+  height:-60px;
+width: 190px;
+position: static;
+margin-left: 700px;
+margin-top: -700px;
+margin-bottom:3px;
+}
+
+.Page2 {
+background-color: #cccccc;
+padding: 7px;
+  border-radius:0px;
+  height:220px;
+width: 190px;
+position: static;
+margin-left: 700px;
+}
+
+h3{
+  border-bottom: solid black 2px;
+  font-size: 13px;
+}
+
+.irc_mi{
+  padding:10px;
+}
+
+footer
+ {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 80px 0 50px;
+  overflow: hidden;
+  background-color: #111;
+  border-radius:0px;
+
+}
+a:link
+{
+  color:#cccccc;
+  text-align: center;
+}
+footer div
+ {
+
+    float: left;
+    color: #fff;
+}
+footer
+{
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 4rem;
+  padding-top: 30px;
+  border-bottom: 1px solid #1b1b1b;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:lighter;
+  padding:60px;
+
+  border-top: 5px solid black;
+
+    }
