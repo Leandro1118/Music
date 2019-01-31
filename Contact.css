@@ -19,16 +19,20 @@ height: 1080px;
   margin-top: 10px;
   padding-bottom: 20px;
 }
-ul
+#id
  {
+   width: 100%;
+   position: fixed;top: 0px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    list-style-type: none;
    margin: 0;
-padding: 20px;
  overflow: hidden;
-   background-color:#111;
+   background-color:#fff;
    border-radius:0px;
-   margin-bottom:10px;
+   margin-bottom:50px;
    border-bottom: solid white 1px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -42,13 +46,13 @@ li
 
 li a
  {
-   display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
-     padding-top: 14px;
- padding-top: 14px;
- text-decoration: none;
+  display: block;
+  color: #111;
+  text-align: center;
+  padding: 14px 16px;
+  padding-top: 14px;
+  text-decoration: none;
+
 }
 
 li a:hover
@@ -74,8 +78,9 @@ clear: both;
 .Page {
 background-color: #f2f3f4;
 padding: 20px;
+padding-top: 100px;
   border-radius:0px;
-  height:380px;
+  height:420px;
   margin-top: 0px;
 
 }
@@ -91,4 +96,54 @@ h3
 }
 .Map{
   padding-left: 10px;
+padding-top: 120px;
 }
+
+
+footer
+ {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 80px 0 50px;
+  overflow: hidden;
+  background-color: #cccccc;
+  border-radius:0px;
+  
+
+}
+p
+{
+
+  padding: 30px;
+text-decoration: none;
+
+}
+a:link
+{
+  color:#111;
+  text-align: center;
+}
+footer div
+ {
+
+    float: left;
+    color: #fff;
+}
+footer
+{
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 16px;
+  line-height: 4rem;
+  padding-top: 30px;
+  border-bottom: 1px solid #1b1b1b;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:lighter;
+  padding:60px;
+  margin-top: 150px;
+  border-top: 1px solid black;
+
+    }
